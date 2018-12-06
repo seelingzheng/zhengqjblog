@@ -6,6 +6,14 @@ module.exports = {
       rel: 'icon',
       href: '/logo.jpg'
     }], // 增加一个自定义的 favicon(网页标签的图标)
+    ['link', {
+      rel: 'manifest',
+      href: '/photo.jpg'
+    }],
+    ['link', {
+      rel: 'apple-touch-icon',
+      href: '/photo.jpg'
+    }],
   ],
   base: '/', // 这是部署到github相关的配置
   markdown: {
